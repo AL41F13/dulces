@@ -15,6 +15,7 @@ $('#btnlistado').on('tap',function(){
 		error: function(){alert("error en conexion");},
 		
 		success: function(respuesta){var producto = JSON.parse(respuesta);
+		alert(respuesta);
 		
 		$('#contenido').empty();
 		
