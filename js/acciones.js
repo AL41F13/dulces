@@ -23,7 +23,7 @@ $('#btnlistado').on('tap',function(){
 		{$('#contenido').append('   <div><div align="center" style="border:4px solid #63F;"><div>'+ producto.dulce[$x].nombreDulce +' </div><div>'+ producto.dulce[$x].regionDulce +'  </div><div>                '+ producto.dulce[$x].descripcionDulce +'</div><div><img src="http://192.168.1.188/dulce/recursos/imagenes/fotos/'+ producto.dulce[$x].claveDulce +'.jpg"> </div></div></div></div>      ');}
 		
 		
-		$(':mobile-pagecontainer').pagecontainer('change','#listado',{transition: 'pop'});
+		$(':mobile-pagecontainer').pagecontainer('change','#page4',{transition: 'pop'});
 		
 		
 			
